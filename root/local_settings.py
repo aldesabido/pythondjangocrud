@@ -1,0 +1,5 @@
+name = "cruddb"
+user = "postgres"
+password = "localpostgre"
+host = "localhost"
+env = "localhost"
