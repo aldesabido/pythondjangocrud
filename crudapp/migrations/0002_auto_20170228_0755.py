@@ -6,12 +6,12 @@ from django.db import migrations
 from ..forms.crud import *
 
 def populate_records(apps,schema_editor):
-	Record = apps.get_model("systech_account","Record")
+	Record = apps.get_model("crudapp","Record")
 
 	records = [
 		{"name": "Alde"},
 		{"name": "Jeyran"},
-		{"name": "Person1"},
+		{"name": "Jelord"},
 		{"name": "Person2"},
 	]
 
@@ -23,7 +23,7 @@ def populate_records(apps,schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('systech_account', '0001_initial'),
+        ('crudapp', '0001_initial'),
     ]
 
     operations = [

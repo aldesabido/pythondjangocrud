@@ -5,7 +5,7 @@ class Record(models.Model):
 	name       = models.CharField(max_length=200)
 
 	class Meta:
-		app_label = "systech_account"
+		app_label = "crudapp"
 		db_table  = "record"
 
 	def as_dict(self):

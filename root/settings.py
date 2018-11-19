@@ -35,7 +35,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
-    'systech_account',
+    'crudapp',
 )
 
 INTERNAL_IPS = ('127.0.0.1','127.0.0.1:9000',)
@@ -151,7 +151,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/static/uploads/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'systech_account/static/uploads')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'crudapp/static/uploads')
 
 
 ERROR_LEVEL = 'WARNING' # DEBUG -> INFO -> WARNING -> ERROR -> CRITICAL

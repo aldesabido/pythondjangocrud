@@ -3,7 +3,7 @@ from django.conf.urls import url, handler404,patterns,include
 from django.conf import settings as root_settings
 from django.conf.urls.static import static
 
-from systech_account.views import crud,common
+from crudapp.views import crud,common
 
 urlpatterns = [
 	url(r'^$', crud.home, name='home'),
